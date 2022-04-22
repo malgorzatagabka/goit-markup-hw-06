@@ -398,12 +398,29 @@ img {
   padding-bottom: 60px;
   display: flex;
   cursor: pointer;
+  align-items: baseline;
+}
+.footer-header{
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--third-color);
 }
 
 .address-list {
   display: block;
   margin-top: 20px;
 }
+
+.footer-social-list,
+.footer-form {
+  display: flex;
+
+}
+
 .footer-address,
 .footer-email,
 .footer-phone {
@@ -438,19 +455,6 @@ img {
   margin-left: 70px;
   margin-right: 78px;
   align-items: center;
-}
-
-.footer-social-text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.42;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--third-color);
-}
-.footer-social-list {
-  display: flex;
-  margin-top: 20px;
 }
 
 .footer-social-list-item:not(:last-child) {
@@ -503,11 +507,6 @@ img {
   top: 50%;
   transform: translateY(-50%);
   right: 28px;
-}
-.footer-form-wrapper {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
 }
 
 .footer-form-input {
